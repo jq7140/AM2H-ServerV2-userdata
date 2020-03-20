@@ -17,7 +17,6 @@ var color2 = new CssRules()
 function initFields(){
     const c = new Container("#contentlayer")
 	 .setBgImage({"background-image": "url(\"images/StromV2_image.svg\")",
-	//.setBgImage({"background-image": "url(\"http://clicca.de/StromV2_image.svg\")",
             "width": "1030px","height": "620px","background-size": "1030px 620px"})
         .box("home/state/heating/vitotronic/temperatureOutside:formattedMessage","width: 56px; left: 54px; top: 307px;")
         .box("home/state/metering/powermeter/powerActual:formattedMessage","width: 78px; left: 208px; top: 355px;",color1)

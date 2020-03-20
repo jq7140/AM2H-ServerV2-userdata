@@ -12,7 +12,6 @@ var color = new CssRules()
 function initFields(){
     const c = new Container("#contentlayer")
 	 .setBgImage({"background-image": "url(\"images/WasserV2_image.svg\")",
-        //.setBgImage({"background-image": "url(\"http://clicca.de/WasserV2_image.svg\")",
             "width": "1030px","height": "620px","background-size": "1030px 620px"})
         .box("home/state/heating/vitotronic/temperatureOutside:formattedMessage","width: 56px; left: 54px; top: 307px;")
         .box("home/state/heating/vitotronic/temperatureWater:formattedMessage","width: 48px; left: 633px; top: 440px;")

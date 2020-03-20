@@ -18,7 +18,6 @@ var color2 = new CssRules()
 function initFields(){
     const c = new Container("#contentlayer")
 	.setBgImage({"background-image": "url(\"images/TempEGV2_image.svg\")",
-        //.setBgImage({"background-image": "url(\"http://clicca.de/TempEGV2_image.svg\")",
             "width": "1030px","height": "620px","background-size": "1030px 620px"})
         
 

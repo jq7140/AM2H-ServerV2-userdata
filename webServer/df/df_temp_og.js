@@ -17,7 +17,6 @@ var color2 = new CssRules()
 function initFields(){
     const c = new Container("#contentlayer")
 	.setBgImage({"background-image": "url(\"images/TempOGV2_image.svg\")",
-        //.setBgImage({"background-image": "url(\"http://clicca.de/TempOGV2_image.svg\")",
             "width": "1030px","height": "620px","background-size": "1030px 620px"})
       
         .box("home/state/location/Schlafen/roomTemperature:formattedMessage","width: 56px; left: 470px; top: 395px;")
